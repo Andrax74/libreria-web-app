@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const AuthorsList = () => {
+import IPage from '../Interfaces/IPage'
+import logging from '../Config/logging';
+
+const AuthorsList: React.FC<IPage> = (props) =>  {
+
+    useEffect(() => {
+        logging.info(`Avvio ${props.name}`);
+    }, [props.name]);
+    
     return (
         <div>
             <h1>Autori</h1>

@@ -15,7 +15,7 @@ const Navibar : React.FC = () => {
               <Nav>
                   <Link className="nav-link" to='/'>Home</Link>
                   <Link className="nav-link" to='/books'>Libri</Link>
-                  <Link className="nav-link" to='/books/new'>Crea Libri</Link>
+                  <Link className="nav-link" to='/newbook'>Crea Libri</Link>
                   <Link className="nav-link" to='/authors'>Autori</Link>
               </Nav>
             </Navbar.Collapse>
