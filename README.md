@@ -48,3 +48,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ##Installazione Dipendenze
 npm install react-bootstrap bootstrap@5.1.3 
 npm install react-router-dom@5.2.0
+npm install axios

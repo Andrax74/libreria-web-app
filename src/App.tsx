@@ -9,6 +9,7 @@ import routes from './Config/routes';
 const App: React.FC<{}> = props =>  {
 
   return (
+
     <div className="App">
         <Router>
           <Navibar /> 
